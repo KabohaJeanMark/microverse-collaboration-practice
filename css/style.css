@@ -2,6 +2,10 @@ html {
     box-sizing: border-box;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -32,6 +36,7 @@ a {
     color: white;
 }
 
+
 #welcome-section {
     height: 100vh;
     background-color: black;
@@ -45,6 +50,13 @@ a {
 #projects {
     display: flex;
     flex-wrap: wrap;
+    background-color: aqua;
+}
+
+img {
+    height: 60vh;
+    width: 50vh;
+    margin: 10px;
 }
 
 @media and (max-width = 400px) {
