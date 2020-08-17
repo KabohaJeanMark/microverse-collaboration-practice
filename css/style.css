@@ -1,13 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #navbar {
-    height: 10vh;
+    height: 5vh;
     position: fixed;
-    background-color: aqua;
+    background-color: red;
     top: 0;
     width: 100%;
 }
@@ -23,11 +28,18 @@ ul li {
 
 a {
     text-decoration: none;
+    padding: 10px;
+    color: white;
 }
 
 #welcome-section {
     height: 100vh;
-    background-color: red;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #projects {
