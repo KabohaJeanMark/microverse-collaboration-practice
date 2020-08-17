@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#navbar {
+    height: 10vh;
+    position: fixed;
+    background-color: aqua;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    float: right;
+    margin-right: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#welcome-section {
+    height: 100vh;
+    background-color: red;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media and (max-width = 400px) {
+    #projects {
+        display: block;
+    }
+}
